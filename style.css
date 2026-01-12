@@ -7,6 +7,9 @@
 body {
   background-color: #FAF7F2;
 }
+.container {
+  max-width: 1920px;
+}
 
 header {
   background-image: url('assets/iteration-1/home-banner.png');
@@ -14,6 +17,8 @@ header {
   background-position: bottom center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  aspect-ratio: 3 / 2;
+
 
   display: flex;
   justify-content: center;
